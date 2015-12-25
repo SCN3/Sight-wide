@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="exp5.xsl" ?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="exp5.xsd">
+
+<title>
+    Sight-wide
+</title>
+
+<introduction>
+    Sight-wide是一款旅游相关的电子商务应用，是一个主要面向旅游者群体的C2C平台。
+买家用户可以通过Sight-wide的购买到地图、旅游包、护目镜等旅游装备的同时，还可以购买到诸如旅游规划、私人导游这样的服务。卖家用户既可以销售旅游装备，也可以在经过Sight-wide的认证后销售对应服务。
+Sight-wide的推荐系统分为两个层面，一是实体旅游装备的推荐，二是根据用户购买的服务推荐旅游景点。
+Sight-wide致力于打造一个旅游者的网络社区，用户既可以通过Sight-wide购买到自己想到的商品，也可以享受由Sight-wide整理并提供的对各著名景点的简要介绍和评价，同时用户也可以提交自己对某一景点的介绍和评价。
+</introduction>
+
+<team>
+    <member>
+        <sno>3130102348</sno>
+        <name>熊青城</name>
+        <gender>男</gender>
+        <duty>工程师</duty>
+    </member>
+    
+    <member>
+        <sno>3130000656</sno>
+        <name>海杰文</name>
+        <gender>男</gender>
+        <duty>工程师</duty>
+    </member>
+    
+    <member>
+        <sno>3130101796</sno>
+        <name>蔡部长</name>
+        <gender>男</gender>
+        <duty>架构师</duty>
+    </member>    
+    
+</team>
+
+</project>
+

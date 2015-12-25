@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+
+<xs:element name="project" type="project_schema"/>
+
+<xs:complexType name="project_schema">
+	<xs:sequece>
+		<xs:element name="title" type="xs:string"/>
+		<xs:element name="introduction" type="xs:string"/>
+		<xs:element name="team" type="team_schema"/>
+	</xs:sequece>
+</xs:complexType>
+		
+<xs:complexType name="team_schema">
+	<xs:sequece>
+		<xs:element name="member" type="member_schema"
+		maxOccurs="5" minOccurs="1"/>
+	</xs:sequece>
+</xs:complexType>
+
+<xs:complexType name="member_schema">
+	<xs:sequece>
+		<xs:element name="sno" type="xs:string"/>
+		<xs:element name="name" type="xs:string"/>
+		<xs:element name="gender" type="xs:string"/>
+		<xs:element name="duty"	type="xs:string"/>
+	</xs:sequece>
+</xs:complexType>
+</xs:schema>

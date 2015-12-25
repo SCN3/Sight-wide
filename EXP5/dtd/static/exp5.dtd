@@ -1,0 +1,9 @@
+<!ELEMENT project (title,introduction,team)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT introduction (#PCDATA)>
+<!ELEMENT team (member+)>
+<!ELEMENT member (sno,name,gender,duty)>
+<!ELEMENT sno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT duty (#PCDATA)>
